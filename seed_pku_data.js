@@ -46,14 +46,4 @@ async function seedPkuData() {
     image_url: "https://your-image-link.com/pku.jpg"
   };
 
-  try {
-    await db.collection("pku_info").doc("main").set(pkuData);
-    console.log("✅ PKU data seeded successfully!");
-    process.exit(0);
-  } catch (error) {
-    console.error("❌ Error seeding PKU data:", error);
-    process.exit(1);
-  }
-}
-
 seedPkuData();
