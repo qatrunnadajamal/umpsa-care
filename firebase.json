@@ -1,0 +1,51 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "umpsa-care",
+          "appId": "1:934172208919:android:57caf1f6d2af94c631d152",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "umpsa-care",
+          "configurations": {
+            "android": "1:934172208919:android:57caf1f6d2af94c631d152",
+            "ios": "1:934172208919:ios:b32d2a567842517b31d152",
+            "macos": "1:934172208919:ios:b32d2a567842517b31d152",
+            "web": "1:934172208919:web:661eda330a838ae431d152",
+            "windows": "1:934172208919:web:adead860839675e831d152"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "source": "functions"
+    },
+    {
+      "source": "(functions)",
+      "codebase": "functions",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "firebase use default": "umpsa-care",
+    "default": "umpsa-care",
+    "firebase use --add": "umpsa-care"
+  },
+  "targets": {},
+  "etags": {}
+}
